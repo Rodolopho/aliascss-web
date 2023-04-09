@@ -130,7 +130,7 @@
     <div class=" dn w400px p0px32px fdc md-fdr-i  _div-mla _div-mra _ul-w6col  _div_w100p b32px-s-2252252250d1 bg-lg217deg-2550000000d8-2550000000_70d71p--lg270deg-0002550000d8_011p-0002550000_70d71p--lg336deg-0000002550d8-0000002550_70d71p">
         <h1 class="heading-lg ">Happy Coding and Designing</h1>
     </div>
-    <div class="p0px32px">
+    <div class="">
         <div class=" bt1px-s-gray200 df jcsb aic  pt32px">
             <div class="w100px">
                 @include('components.acss-logo')

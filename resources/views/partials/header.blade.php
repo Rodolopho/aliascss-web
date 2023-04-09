@@ -25,7 +25,7 @@
     </div>
 
     <nav x-show="show" @click.outside="show=false" x-cloak
-        class=" w100p zi123456789  md-pr-i md-g32px  p0px32px df fdc jcsb mt80px md-mt0px-i mla mra pa bgc-fff  bb1px-s-ccc md-df-i md-fdr-i md-aic  md-bbn md-bgn">
+        class=" w100p zi123456789  md-pr-i md-g32px  p0px32px df fdc jcsb mt80px xs-mt80px-i md-mt0px-i mla mra pa bgc-fff  bb1px-s-ccc md-df-i md-fdr-i md-aic  md-bbn md-bgn">
         <ul
             class="p0px lsn  _a-tdn _a-c-inherit c-gray500 fdc nav-items df  _a-h-tdu _a-w100p _a-p16px md-fdr-i text-md fw5 md-aic">
 

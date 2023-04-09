@@ -24,7 +24,7 @@
                 <use href="{{asset('icons/feather-sprite.svg')}}#arrow-right"></use>
             </svg>
         </span>
-        <span class="df aic gap4px"> You can write html code here, give class attribute some aliascss classnames.
+        <span class="df aic gap4px">write some html code here to try aliascss.
 
         </span>
     </div>

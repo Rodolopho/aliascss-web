@@ -34,7 +34,7 @@
                 <use href="{{asset('icons/feather-sprite.svg')}}#arrow-right" />
             </svg>
         </span>
-        <span class="df aic gap4px"> You can input as many classname as you want seperated by space.
+        <span class="df aic gap4px"> input  classname/s  seperated by space.
 
         </span>
     </div>

@@ -71,36 +71,6 @@
 .wmc{width:min-content ;}
 .wxc{width:max-content ;}
 
-/* AliasCSS : These are classnames compiled  from home.blade.php*/
-
-.-h-bgc-gray400:hover{background-color:#98A2B3 ;}
-.asc{align-self: center ;}
-.bgc-gray100{background-color:#F2F4F7 ;}
-.bgc-gray600{background-color:#475467 ;}
-.c-fff{color:#fff ;}
-.c-red{color:red ;}
-.color-red{color:red ;}
-.dib{display: inline-block ;}
-.display-inline-block{display: inline-block ;}
-.font-size12px{font-size:12px ;}
-.fs12px{font-size:12px ;}
-.h24px{height:24px ;}
-@media  (min-width : 992px) {
-	.lg-fdr{flex-direction: row ;}
- } 
-@media  (min-width : 992px) {
-	.lg-w6col{width: 50% ;}
- } 
-.mb50px{margin-bottom:50px ;}
-.mra{margin-right: auto ;}
-.mt150px{margin-top:150px ;}
-.mt50px{margin-top:50px ;}
-.p12px14px{padding:12px 14px ;}
-.text-md{font-size:16px;line-height:24px ;}
-.text-sm{font-size:14px;line-height:20px ;}
-.w200px{width:200px ;}
-.w24px{width:24px ;}
-
 /* AliasCSS : These are classnames compiled  from components.blade.php*/
 
 @media  (min-width : 768px) {
@@ -116,12 +86,14 @@
 .b1px-s-gray100{border:1px solid #F2F4F7 ;}
 .b1px-s-gray300{border:1px solid #D0D5DD ;}
 .bgc-blue100{background-color:#D1E9FF ;}
+.bgc-gray100{background-color:#F2F4F7 ;}
 .bgc-gray300{background-color:#D0D5DD ;}
 .bgc-gray700{background-color:#344054 ;}
 .bl12px-s-blue100{border-left:12px solid #D1E9FF ;}
 .bl1px-s-gray300{border-left:1px solid #D0D5DD ;}
 .br4px{border-radius:4px ;}
 .c-blue700{color:#175CD3 ;}
+.c-fff{color:#fff ;}
 .c-gray600{color:#475467 ;}
 .h40px{height:40px ;}
 .jcfe{justify-content: flex-end ;}
@@ -146,11 +118,89 @@
 
 .stroke-red-500{stroke:red ;}
 
-/* AliasCSS : These are classnames compiled  from app-layout.blade.php*/
+/* AliasCSS : These are classnames compiled  from header.blade.php*/
 
-._all-bsbb *{box-sizing: border-box ;}
-.ff-inter{font-family:inter  ;}
-.sbs{scroll-behavior:smooth ;}
+._a-c-inherit a{color:inherit ;}
+._a-h-tdu a:hover{text-decoration: underline ;}
+._a-p16px a{padding:16px ;}
+._a-tdn a{text-decoration: none ;}
+._a-w100p a{width:100% ;}
+._li-h-bgc-gray100 li:hover{background-color:#F2F4F7 ;}
+.b1px-s-eee{border:1px solid #eee ;}
+.b2px-s-fff{border:2px solid #fff ;}
+.bb1px-s-blue100{border-bottom:1px solid #D1E9FF ;}
+.bb1px-s-ccc{border-bottom:1px solid #ccc ;}
+.bb1px-s-gray200{border-bottom:1px solid #EAECF0 ;}
+.bgc-success500{background-color:#12B76A ;}
+.br15px{border-radius:15px ;}
+.br50p{border-radius:50% ;}
+.br50px{border-radius:50px ;}
+.dib{display: inline-block ;}
+.g24px{gap:24px ;}
+.h12px{height:12px ;}
+.h18px{height:18px ;}
+.h24px{height:24px ;}
+.h80px{height:80px ;}
+.jcsb{justify-content: space-between ;}
+.l0px{left:0px ;}
+.lsn{list-style: none ;}
+.m0px{margin:0px ;}
+@media  (min-width : 768px) {
+	.md-aic{align-items: center ;}
+ } 
+@media  (min-width : 768px) {
+	.md-bbn{border-bottom:none ;}
+ } 
+@media  (min-width : 768px) {
+	.md-bgn{background:none ;}
+ } 
+@media  (min-width : 768px) {
+	.md-df{display: flex ;}
+ } 
+@media  (min-width : 768px) {
+	.md-df-i{display: flex !important ;}
+ } 
+@media  (min-width : 768px) {
+	.md-dn{display: none ;}
+ } 
+@media  (min-width : 768px) {
+	.md-fdr-i{flex-direction: row !important ;}
+ } 
+@media  (min-width : 768px) {
+	.md-g32px{gap:32px ;}
+ } 
+@media  (min-width : 768px) {
+	.md-mt0px-i{margin-top:0px !important ;}
+ } 
+@media  (min-width : 768px) {
+	.md-pr-i{position: relative !important ;}
+ } 
+.mh150px{min-height:150px ;}
+.mla{margin-left: auto ;}
+.mra{margin-right: auto ;}
+.mt2px{margin-top:2px ;}
+.mt64px{margin-top:64px ;}
+.mt80px{margin-top:80px ;}
+.mw240px{min-width:240px ;}
+.r0px{right:0px ;}
+.shadow-md{box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06) ;}
+.stroke-gray400{stroke:#98A2B3 ;}
+.stroke-gray900{stroke:#101828 ;}
+.t0px{top:0px ;}
+.t30px{top:30px ;}
+.text-md{font-size:16px;line-height:24px ;}
+.text-sm{font-size:14px;line-height:20px ;}
+.w120px{width:120px ;}
+.w12px{width:12px ;}
+.w18px{width:18px ;}
+.w24px{width:24px ;}
+.w40px{width:40px ;}
+@media (max-width : 576px) {
+	.xs-mt80px-i{margin-top:80px !important ;}
+ } 
+.xw240px{max-width:240px ;}
+.zi1{z-index:1 ;}
+.zi123456789{z-index:123456789 ;}
 
 /* AliasCSS : These are classnames compiled  from footer.blade.php*/
 
@@ -192,13 +242,8 @@
 .g20px{gap:20px ;}
 .gap12px{gap:12px ;}
 .heading-lg{font-size:48px ; line-height: 60px; line-spacing:-0.02em ;}
-.jcsb{justify-content: space-between ;}
-.m0px{margin:0px ;}
 @media  (min-width : 768px) {
 	.md-display-md-i{font-size: 36px; line-height: 44px; line-spacing:-0.02em !important ;}
- } 
-@media  (min-width : 768px) {
-	.md-fdr-i{flex-direction: row !important ;}
  } 
 .mt20px{margin-top:20px ;}
 .p12px20px{padding:12px 20px ;}
@@ -210,75 +255,33 @@
 .w100px{width:100px ;}
 .w400px{width:400px ;}
 
-/* AliasCSS : These are classnames compiled  from header.blade.php*/
+/* AliasCSS : These are classnames compiled  from home.blade.php*/
 
-._a-c-inherit a{color:inherit ;}
-._a-h-tdu a:hover{text-decoration: underline ;}
-._a-p16px a{padding:16px ;}
-._a-tdn a{text-decoration: none ;}
-._a-w100p a{width:100% ;}
-._li-h-bgc-gray100 li:hover{background-color:#F2F4F7 ;}
-.b1px-s-eee{border:1px solid #eee ;}
-.b2px-s-fff{border:2px solid #fff ;}
-.bb1px-s-blue100{border-bottom:1px solid #D1E9FF ;}
-.bb1px-s-ccc{border-bottom:1px solid #ccc ;}
-.bb1px-s-gray200{border-bottom:1px solid #EAECF0 ;}
-.bgc-success500{background-color:#12B76A ;}
-.br15px{border-radius:15px ;}
-.br50p{border-radius:50% ;}
-.br50px{border-radius:50px ;}
-.g24px{gap:24px ;}
-.h12px{height:12px ;}
-.h18px{height:18px ;}
-.h80px{height:80px ;}
-.l0px{left:0px ;}
-.lsn{list-style: none ;}
-@media  (min-width : 768px) {
-	.md-aic{align-items: center ;}
+.-h-bgc-gray400:hover{background-color:#98A2B3 ;}
+.asc{align-self: center ;}
+.bgc-gray600{background-color:#475467 ;}
+.c-red{color:red ;}
+.color-red{color:red ;}
+.display-inline-block{display: inline-block ;}
+.font-size12px{font-size:12px ;}
+.fs12px{font-size:12px ;}
+@media  (min-width : 992px) {
+	.lg-fdr{flex-direction: row ;}
  } 
-@media  (min-width : 768px) {
-	.md-bbn{border-bottom:none ;}
+@media  (min-width : 992px) {
+	.lg-w6col{width: 50% ;}
  } 
-@media  (min-width : 768px) {
-	.md-bgn{background:none ;}
- } 
-@media  (min-width : 768px) {
-	.md-df{display: flex ;}
- } 
-@media  (min-width : 768px) {
-	.md-df-i{display: flex !important ;}
- } 
-@media  (min-width : 768px) {
-	.md-dn{display: none ;}
- } 
-@media  (min-width : 768px) {
-	.md-g32px{gap:32px ;}
- } 
-@media  (min-width : 768px) {
-	.md-mt0px-i{margin-top:0px !important ;}
- } 
-@media  (min-width : 768px) {
-	.md-pr-i{position: relative !important ;}
- } 
-.mh150px{min-height:150px ;}
-.mla{margin-left: auto ;}
-.mt2px{margin-top:2px ;}
-.mt64px{margin-top:64px ;}
-.mt80px{margin-top:80px ;}
-.mw240px{min-width:240px ;}
-.r0px{right:0px ;}
-.shadow-md{box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06) ;}
-.stroke-gray400{stroke:#98A2B3 ;}
-.stroke-gray900{stroke:#101828 ;}
-.t0px{top:0px ;}
-.t30px{top:30px ;}
-.w120px{width:120px ;}
-.w12px{width:12px ;}
-.w18px{width:18px ;}
-.w40px{width:40px ;}
-.xw240px{max-width:240px ;}
-.zi1{z-index:1 ;}
-.zi123456789{z-index:123456789 ;}
+.mb50px{margin-bottom:50px ;}
+.mt150px{margin-top:150px ;}
+.mt50px{margin-top:50px ;}
+.p12px14px{padding:12px 14px ;}
+.w200px{width:200px ;}
+
+/* AliasCSS : These are classnames compiled  from app-layout.blade.php*/
+
+._all-bsbb *{box-sizing: border-box ;}
+.ff-inter{font-family:inter  ;}
+.sbs{scroll-behavior:smooth ;}
 
 /* AliasCSS : These are classnames compiled  from side-navigation.blade.php*/
 
@@ -322,6 +325,37 @@
 .xw400px{max-width:400px ;}
 .zi12345{z-index:12345 ;}
 
+/* AliasCSS : These are classnames compiled  from checkbox.blade.php*/
+
+.b1px-s-primary600{border:1px solid #7F56D9 ;}
+.b4px-s-primary50{border:4px solid #F9F5FF ;}
+.bb1px-s-primary600{border-bottom:1px solid #7F56D9 ;}
+.bgc-primary100{background-color:#F4EBFF ;}
+.bgc-primary50{background-color:#F9F5FF ;}
+.bgc-primary600{background-color:#7F56D9 ;}
+.bgc-success50{background-color:#ECFDF3 ;}
+.br8px8px0px0px{border-radius:8px 8px 0px 0px ;}
+.bxs0px0px1px4px-primary100{box-shadow:0px 0px 1px 4px #F4EBFF ;}
+.c-success700{color:#027A48 ;}
+.display-lg{font-size:48px ; line-height: 60px; line-spacing:-0.02em ;}
+.fw7{font-weight: 700 ;}
+.g64px{gap:64px ;}
+.gap32px{gap:32px ;}
+.gap8px{gap:8px ;}
+.h100p{height:100% ;}
+.h10px{height:10px ;}
+.h14px{height:14px ;}
+.h20px{height:20px ;}
+.h36px{height:36px ;}
+.p12px{padding:12px ;}
+.p16px{padding:16px ;}
+.stroke-fff{stroke:#fff ;}
+.stroke-primary600{stroke:#7F56D9 ;}
+.stroke-width4px{stroke-width:4px ;}
+.w10px{width:10px ;}
+.w14px{width:14px ;}
+.w20px{width:20px ;}
+
 /* AliasCSS : These are classnames compiled  from button.blade.php*/
 
 .__div-fww > div{flex-wrap: wrap ;}
@@ -333,7 +367,6 @@
 .b1px-s-gray900{border:1px solid #101828 ;}
 .b1px-s-indigo600{border:1px solid #444CE7 ;}
 .b1px-s-indigo900{border:1px solid #2D3282 ;}
-.b1px-s-primary600{border:1px solid #7F56D9 ;}
 .b1px-s-primary900{border:1px solid #42307D ;}
 .b1px-s-success600{border:1px solid #039855 ;}
 .b1px-s-success900{border:1px solid #054F31 ;}
@@ -347,9 +380,7 @@
 .bgc-indigo100{background-color:#E0EAFF ;}
 .bgc-indigo600{background-color:#444CE7 ;}
 .bgc-indigo900{background-color:#2D3282 ;}
-.bgc-primary100{background-color:#F4EBFF ;}
 .bgc-primary500{background-color:#9E77ED ;}
-.bgc-primary600{background-color:#7F56D9 ;}
 .bgc-primary900{background-color:#42307D ;}
 .bgc-success100{background-color:#D1FADF ;}
 .bgc-success600{background-color:#039855 ;}
@@ -367,7 +398,6 @@
 .c-primary600{color:#7F56D9 ;}
 .c-success600{color:#039855 ;}
 .c-warning600{color:#DC6803 ;}
-.display-lg{font-size:48px ; line-height: 60px; line-spacing:-0.02em ;}
 .fdr{flex-direction: row ;}
 .m64px0px{margin:64px 0px ;}
 .mb12px{margin-bottom:12px ;}
@@ -381,12 +411,6 @@
 .tdu{text-decoration: underline ;}
 .text-xl{font-size:20px;line-height:30px ;}
 
-/* AliasCSS : These are classnames compiled  from dropdown.blade.php*/
-
-.c-000{color:#000 ;}
-.gap32px{gap:32px ;}
-.p10px14px{padding:10px 14px ;}
-
 /* AliasCSS : These are classnames compiled  from faq.blade.php*/
 
 ._li-bt1px-s-gray200 li{border-top:1px solid #EAECF0 ;}
@@ -398,46 +422,19 @@
 
 .h100px{height:100px ;}
 
-/* AliasCSS : These are classnames compiled  from input.blade.php*/
+/* AliasCSS : These are classnames compiled  from dropdown.blade.php*/
 
-._li-h-bgc-gray300 li:hover{background-color:#D0D5DD ;}
-.b1px-s-primary300{border:1px solid #D6BBFB ;}
-.br8px0px0px8px{border-radius:8px 0px 0px 8px ;}
-.brt1px-s-gray300{border-right:1px solid #D0D5DD ;}
-.bxs0px0px0px5px-primary100{box-shadow:0px 0px 0px 5px #F4EBFF ;}
-.c-gray400{color:#98A2B3 ;}
-.c-warning300{color:#FEC48B ;}
-.m-8px-12px{margin:-8px -12px ;}
-.p4px{padding:4px ;}
-.stroke-success400{stroke:#32D583 ;}
-.xh320px{max-height:320px ;}
-.zi123{z-index:123 ;}
+.c-000{color:#000 ;}
+.p10px14px{padding:10px 14px ;}
 
-/* AliasCSS : These are classnames compiled  from checkbox.blade.php*/
+/* AliasCSS : These are classnames compiled  from tab.blade.php*/
 
-.b4px-s-primary50{border:4px solid #F9F5FF ;}
-.bb1px-s-primary600{border-bottom:1px solid #7F56D9 ;}
-.bgc-primary50{background-color:#F9F5FF ;}
-.bgc-success50{background-color:#ECFDF3 ;}
-.br8px8px0px0px{border-radius:8px 8px 0px 0px ;}
-.bxs0px0px1px4px-primary100{box-shadow:0px 0px 1px 4px #F4EBFF ;}
-.c-success700{color:#027A48 ;}
-.fw7{font-weight: 700 ;}
-.g64px{gap:64px ;}
-.gap8px{gap:8px ;}
-.h100p{height:100% ;}
-.h10px{height:10px ;}
-.h14px{height:14px ;}
-.h20px{height:20px ;}
-.h36px{height:36px ;}
-.p12px{padding:12px ;}
-.p16px{padding:16px ;}
-.stroke-fff{stroke:#fff ;}
-.stroke-primary600{stroke:#7F56D9 ;}
-.stroke-width4px{stroke-width:4px ;}
-.w10px{width:10px ;}
-.w14px{width:14px ;}
-.w20px{width:20px ;}
+.-h-bgc-primary50:hover{background-color:#F9F5FF ;}
+._div-bgc-fff div{background-color:#fff ;}
+._div-p8px12px div{padding:8px 12px ;}
+.brt1px-s-blue600{border-right:1px solid #1570EF ;}
+.brt1px-s-gray200{border-right:1px solid #EAECF0 ;}
+.c-blue600{color:#1570EF ;}
 
 /* AliasCSS : These are classnames compiled  from modal.blade.php*/
 
@@ -468,14 +465,20 @@
 .w554px{width:554px ;}
 .zi1234567{z-index:1234567 ;}
 
-/* AliasCSS : These are classnames compiled  from tab.blade.php*/
+/* AliasCSS : These are classnames compiled  from input.blade.php*/
 
-.-h-bgc-primary50:hover{background-color:#F9F5FF ;}
-._div-bgc-fff div{background-color:#fff ;}
-._div-p8px12px div{padding:8px 12px ;}
-.brt1px-s-blue600{border-right:1px solid #1570EF ;}
-.brt1px-s-gray200{border-right:1px solid #EAECF0 ;}
-.c-blue600{color:#1570EF ;}
+._li-h-bgc-gray300 li:hover{background-color:#D0D5DD ;}
+.b1px-s-primary300{border:1px solid #D6BBFB ;}
+.br8px0px0px8px{border-radius:8px 0px 0px 8px ;}
+.brt1px-s-gray300{border-right:1px solid #D0D5DD ;}
+.bxs0px0px0px5px-primary100{box-shadow:0px 0px 0px 5px #F4EBFF ;}
+.c-gray400{color:#98A2B3 ;}
+.c-warning300{color:#FEC48B ;}
+.m-8px-12px{margin:-8px -12px ;}
+.p4px{padding:4px ;}
+.stroke-success400{stroke:#32D583 ;}
+.xh320px{max-height:320px ;}
+.zi123{z-index:123 ;}
 
 /* AliasCSS : These are classnames compiled  from typography.blade.php*/
 
