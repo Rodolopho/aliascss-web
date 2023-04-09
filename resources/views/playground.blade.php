@@ -47,7 +47,7 @@
 
             })">
     <!------Code Area------------>
-    <div class=" p0px32px jcfe action_bar  g32px df aic w6col bgc-blue100 h40px">
+    <div class=" p0px32px jcfe action_bar  g32px df aic md-w6col bgc-blue100 h40px">
         <div class="df g4px cp" @click="live=!live" :class="live?'c-blue700 bgc-gray300 p4px8px br4px':''"
             acss-class="bgc-gray300 p4px8px br4px c-blue700">
             <svg :class="live?'stroke-blue700':'stroke-currentColor'" acss-class="stroke-currentColor  stroke-blue700"
@@ -84,8 +84,8 @@
         </span>
 
     </div>
-    <div class="df">
-        <div class="pr w6col bgc-gray100 bl12px-s-blue100 " @keyup="code=editor.getValue()">
+    <div class="df fdc md-fdr">
+        <div class="pr md-w6col bgc-gray100 bl12px-s-blue100 " @keyup="code=editor.getValue()">
             <textarea id="code-editor" class="">
 
                     </textarea>
@@ -93,7 +93,7 @@
 
         <!------End code Area------------>
         <!------Output Area------------>
-        <div x-ref="output" class="w6col  bl1px-s-gray300 " id="output-area" x-html="getCode">
+        <div x-ref="output" class="md-w6col  bl1px-s-gray300 " id="output-area" x-html="getCode">
 
         </div>
     </div>

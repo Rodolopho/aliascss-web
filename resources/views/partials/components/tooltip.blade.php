@@ -35,7 +35,7 @@
     <div class="df jcsb _div">
 
         <div class="pr"">
-            <a  class="-h____div-db" href="#" >Hover me</a>
+            <span  class="-h____div-db tdu c-blue" >Hover me</span>
             <div class="pa dn btm100p mb16px wxc-i zi1234">
                 <div class="pr p8px12px bgc-fff b1px-s-gray100 shadow-lg text-xs bgc-gray700 c-fff br8px fw5 dif jcc aic">
                     This is tooltip up
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="pr"">
-                    <a  class=" -h____div-db" href="#">right tooltip</a>
+                    <span  class=" -h____div-db tdu c-blue">right tooltip</span>
             <div class="pa dn t-50p l100p ml16px wxc-i zi1234">
                 <div class="pr p8px12px bgc-fff b1px-s-gray100 shadow-lg text-xs bgc-gray700 c-fff br8px fw5 dif jcc aic">
                     This is tooltip right
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="pr"">
-                    <a  class=" -h____div-db" href="#">bottom tooltip</a>
+                    <span  class=" -h____div-db tdu c-blue">bottom tooltip</span>
             <div class="pa dn t100p mt16px wxc-i zi1234">
                 <div class="pr p8px12px bgc-fff b1px-s-gray100 shadow-lg text-xs bgc-gray700 c-fff br8px fw5 dif jcc aic">
                     This is tooltip bottom
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="pr ">
-                    <a  class=" -h____div-db" href="#">left tooltip</a>
+                    <span  class=" -h____div-db tdu c-blue">left tooltip</span>
             <div class="pa dn t-50p  t-50p r100p mr16px wxc-i zi1234">
                 <div class="pr p8px12px bgc-fff b1px-s-gray100 shadow-lg text-xs bgc-gray700 c-fff br8px fw5 dif jcc aic">
                     This is tooltip left

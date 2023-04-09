@@ -38,7 +38,7 @@
         <!-- end Input Drop-->
     </div>
     <!--DropInput-->
-    <div x-show="Object.keys(classNames).length"
+    <div  x-cloak x-show="Object.keys(classNames).length"
         class="  pa  zi12345 b1px-s-gray300 w100p p8px12px l0px t100p bgc-fff xh60vh  mw320px oya shadow-md mt2px br8px">
         <ul class="p0px m0px lsn  text-md _li-nc-2n-bgc-gray50">
             <template x-for="( key , i) in Object.keys(classNames)">

@@ -192,14 +192,14 @@
 
 
         <!------Team Member with profile pic ------------>
-        <div class="df g8px fdc">
+        {{-- <div class="df g8px fdc">
             <label class="text-md fw5">Team Member with profile pic</label>
             <div @click.away="showDropDown=false" x-data="{showDropDown:false, current:['Jason White','@jasonwh','Alec Whitten.jpg'],members:[
                         ['Phoex Baker','@phonex','Aliah Lane.jpg'],['Olivia Rolly','@olivia','Alisa Hester.jpg'],['Jason White','@jasonwh','Alec Whitten.jpg'],['Udip Singh','@udaysi','Kari Rasmussen.jpg'],
                         ['Biki John','@beekee','Anaiah Whitten.jpg'],['Robert Wright','@robert','Andi Lane.jpg'],['Emily Bell','@emilybabe','Candice Wu.jpg'],['Jenifer Larry','@jenylarry','Demi Wilkinson.jpg']
                     ]}" class="df pr aic  g16px p8px12px bgc-fff br8px g8px b1px-s-gray300  xw400px">
                 <div class="df jcsb aic w100p g12px text-lg  cp" @click="showDropDown=!showDropDown">
-                    {{-- <input class="oln bn w100p c-gray text-md" value="" x-model="current[0]" /> --}}
+
 
                     <span class="df">
                         <img class="br50px w24px " :src="'{{asset('additionalassets/avatarsquare')}}/'+current[2]" />
@@ -248,7 +248,7 @@
                 <!-- end Input Drop-->
             </div>
             <small class="text-sm c-gray500">This is the user hint</small>
-        </div>
+        </div> --}}
         <!------End Team Member with profile pic ------------>
 
 
@@ -282,8 +282,8 @@
                     <template x-for="member in selected">
                         <div class="df aic jcsb text-xs b1px-s-gray300 br5px g4px p4px bgc-fff">
                             <span class="df">
-                                <img class="br50px w16px "
-                                    :src="'{{asset('additionalassets/avatarsquare')}}/'+member[2]" />
+                                {{-- <img class="br50px w16px "
+                                    :src="'{{asset('additionalassets/avatarsquare')}}/'+member[2]" /> --}}
                             </span>
                             <span class="oln bn w100p c-gray " x-text="member[0].split(' ')[0]"></span>
                             <span class="df" @click="removeData(member)">
@@ -310,8 +310,8 @@
                                     @click="pushData(member);showDropDown=false;searchTerm='';">
                                     <div class="df g12px">
                                         <span class="df">
-                                            <img class="br50px w24px "
-                                                :src="'{{asset('additionalassets/avatarsquare')}}/'+member[2]" />
+                                            {{-- <img class="br50px w24px "
+                                                :src="'{{asset('additionalassets/avatarsquare')}}/'+member[2]" /> --}}
                                         </span>
                                         <div class="p0px">
                                             <span class="c-gray700" x-text="member[0]"></span>

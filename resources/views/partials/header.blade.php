@@ -24,8 +24,8 @@
         </div>
     </div>
 
-    <nav x-show="show" @click.outside="show=false" sx-collapse
-        class=" w100p zi123456789  md-pr-i md-g32px  p0px32px df fdc jcsb  xs-mt80px mla mra pa bgc-fff  bb1px-s-ccc md-df-i md-fdr-i md-aic md-mt0px md-bbn md-bgn">
+    <nav x-show="show" @click.outside="show=false" x-cloak
+        class=" w100p zi123456789  md-pr-i md-g32px  p0px32px df fdc jcsb mt80px md-mt0px-i mla mra pa bgc-fff  bb1px-s-ccc md-df-i md-fdr-i md-aic  md-bbn md-bgn">
         <ul
             class="p0px lsn  _a-tdn _a-c-inherit c-gray500 fdc nav-items df  _a-h-tdu _a-w100p _a-p16px md-fdr-i text-md fw5 md-aic">
 
@@ -66,7 +66,7 @@
 
         </ul>
         <div class="rright-nav dn md-df aic">
-            <div class="pr df mw240px jcfe" x-data="{showDropDown:false}">
+            {{-- <div class="pr df mw240px jcfe" x-data="{showDropDown:false}">
                 <span @click="showDropDown=!showDropDown" class="" acss-class="stroke-gray900">
                     <svg :class="showDropDown?'stroke-gray900':'stroke-gray400'"
                         class="w24px  h24px  stroke-width2px stroke-linecap-round stroke-linejoin-round fill-none">
@@ -76,7 +76,7 @@
                 </span>
 
                 <!--Dropdown-->
-                <div @click.away="showDropDown=false" x-show="showDropDown"
+                <div @click.away="showDropDown=false" x-cloak x-show="showDropDown"
                     class="drop zi1 pa b1px-s-gray100 xw240px w100p l0px t100p bgc-fff  shadow-lg mt2px br8px">
                     <ul class="p0px m0px lsn _li-h-bgc-gray100 text-md ">
 
@@ -244,7 +244,7 @@
                 <!-- end  Dropdown-->
             </div>
             <!------end dot verticles------------>
-        </div>
+        </div>--}}
     </nav>
     @push('script')
     <script type="text/javascript" src="{{asset('js/static-classnames.js')}}"> </script>

@@ -6,7 +6,7 @@
         <div class="bgc-gray300 dib p12px18px br8px cp " @click="showModal=!showModal">
             Modal1
         </div>
-        <div x-show="showModal" class="pf zi1234567 w100vw h100vh t0px l0px bgc-0000000000d5 df aic jcc">
+        <div  x-cloak x-show="showModal" class="pf zi1234567 w100vw h100vh t0px l0px bgc-0000000000d5 df aic jcc">
             <div x@click.away="showModal=false" class="df bgc-fff aic jcsb p18px w400px br12px fdc g20px">
                 <div class="df aic jcsb w100p">
                     <span class="bgc-success100 b8px-s-success50 w48px h48px aic jcc df br50pc">
@@ -47,7 +47,7 @@
         <div class="bgc-gray300 dib p12px18px br8px cp " @click="showModal=!showModal">
             Modal2
         </div>
-        <div x-show="showModal" class="pf zi1234567 w100vw h100vh t0px r0px bgc-0000000000d5 df aic jcc">
+        <div  x-cloak x-show="showModal" class="pf zi1234567 w100vw h100vh t0px r0px bgc-0000000000d5 df aic jcc">
             <div x@click.away="showModal=false" class="df m10px bgc-fff aic jcsb p18px w554px br12px fdc g32px">
                 <div class="df aic  w100p g24px ">
                     <span class="bgc-error100 b8px-s-error50   aic jcc df br50pc">
@@ -85,7 +85,7 @@
         <div class="bgc-gray300 dib p12px18px br8px cp " @click="showModal=!showModal">
             Sign in
         </div>
-        <div x-show="showModal" x-transition.duration.5000ms x-transition.scale.origin.top class="pf zi1234567 w100vw h100vh  t0px r0px bgc-0000000000d5 df aic jcc">
+        <div  x-cloak x-show="showModal" x-transition.duration.5000ms x-transition.scale.origin.top class="pf zi1234567 w100vw h100vh  t0px r0px bgc-0000000000d5 df aic jcc">
             <div   class="df bgc-fff aic jcsb p24px br12px fdc g20px">
                 <div class="df aic jcfe  w100p  ">
                     <span class=" mra mla bgc-primary100 b8px-s-primary50  aic jcc df br50pc">

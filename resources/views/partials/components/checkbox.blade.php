@@ -157,7 +157,11 @@
             :class="checked?'bgc-primary50 b1px-s-primary600':'b1px-s-gray200 bgc-fff'">
             <div class="df g8px ">
                 <div class="p0px w40px h40px as df">
-                    <img class="br50px w40px " src="{{asset('additionalassets/avatarsquare/Olivia Rhye.jpg')}}">
+                    <span class="df aic">
+                        <svg class="w24px  h24px stroke-primary600 stroke-width2px stroke-linecap-round stroke-linejoin-round fill-none">
+                            <use href="{{asset('icons/feather-sprite.svg')}}#user" />
+                        </svg>
+                    </span>
                 </div>
                 <div class="df fdc g4px" :class="checked?'c-primary600':'c-gray500'">
                     <span class="text-sm "><span class="c-gray700 fw5" acss-class="c-primary700" :class="checked?'c-primary700':'c-gray700'">Olivia</span>@olivia</span>

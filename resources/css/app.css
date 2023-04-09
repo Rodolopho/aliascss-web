@@ -101,6 +101,16 @@
 .w200px{width:200px ;}
 .w24px{width:24px ;}
 
+/* AliasCSS : These are classnames compiled  from components.blade.php*/
+
+@media  (min-width : 768px) {
+	.md-db{display: block ;}
+ } 
+.oh{overflow: hidden ;}
+.pf{position: fixed ;}
+.pr{position: relative ;}
+.w128px{width:128px ;}
+
 /* AliasCSS : These are classnames compiled  from playground.blade.php*/
 
 .b1px-s-gray100{border:1px solid #F2F4F7 ;}
@@ -115,31 +125,26 @@
 .c-gray600{color:#475467 ;}
 .h40px{height:40px ;}
 .jcfe{justify-content: flex-end ;}
+@media  (min-width : 768px) {
+	.md-fdr{flex-direction: row ;}
+ } 
+@media  (min-width : 768px) {
+	.md-w6col{width: 50% ;}
+ } 
 .mh100vh{min-height:100vh ;}
 .mt12px{margin-top:12px ;}
 .p0px32px{padding:0px 32px ;}
 .p8px12px{padding:8px 12px ;}
 .pa{position: absolute ;}
-.pr{position: relative ;}
 .shadow-lg{box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03) ;}
 .stroke-blue700{stroke:#175CD3 ;}
 .t100p{top:100% ;}
 .w100vw{width:100vw ;}
-.w6col{width: 50% ;}
 .zi10{z-index:10 ;}
 
 /* AliasCSS : These are classnames compiled  from welcome.blade.php*/
 
 .stroke-red-500{stroke:red ;}
-
-/* AliasCSS : These are classnames compiled  from components.blade.php*/
-
-@media  (min-width : 768px) {
-	.md-db{display: block ;}
- } 
-.oh{overflow: hidden ;}
-.pf{position: fixed ;}
-.w128px{width:128px ;}
 
 /* AliasCSS : These are classnames compiled  from app-layout.blade.php*/
 
@@ -247,13 +252,10 @@
 	.md-dn{display: none ;}
  } 
 @media  (min-width : 768px) {
-	.md-fdr{flex-direction: row ;}
- } 
-@media  (min-width : 768px) {
 	.md-g32px{gap:32px ;}
  } 
 @media  (min-width : 768px) {
-	.md-mt0px{margin-top:0px ;}
+	.md-mt0px-i{margin-top:0px !important ;}
  } 
 @media  (min-width : 768px) {
 	.md-pr-i{position: relative !important ;}
@@ -262,6 +264,7 @@
 .mla{margin-left: auto ;}
 .mt2px{margin-top:2px ;}
 .mt64px{margin-top:64px ;}
+.mt80px{margin-top:80px ;}
 .mw240px{min-width:240px ;}
 .r0px{right:0px ;}
 .shadow-md{box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06) ;}
@@ -273,12 +276,14 @@
 .w12px{width:12px ;}
 .w18px{width:18px ;}
 .w40px{width:40px ;}
-@media (max-width : 576px) {
-	.xs-mt80px{margin-top:80px ;}
- } 
 .xw240px{max-width:240px ;}
 .zi1{z-index:1 ;}
 .zi123456789{z-index:123456789 ;}
+
+/* AliasCSS : These are classnames compiled  from side-navigation.blade.php*/
+
+._a-bgc-blue50 a{background-color:#EFF8FF ;}
+._a-c-blue600 a{color:#1570EF ;}
 
 /* AliasCSS : These are classnames compiled  from quick-compiler.blade.php*/
 
@@ -301,11 +306,6 @@
 .stroke-gray700{stroke:#344054 ;}
 .stroke-width1px{stroke-width:1px ;}
 .xw720px{max-width:720px ;}
-
-/* AliasCSS : These are classnames compiled  from side-navigation.blade.php*/
-
-._a-bgc-blue50 a{background-color:#EFF8FF ;}
-._a-c-blue600 a{color:#1570EF ;}
 
 /* AliasCSS : These are classnames compiled  from static-classnames.blade.php*/
 
@@ -381,6 +381,38 @@
 .tdu{text-decoration: underline ;}
 .text-xl{font-size:20px;line-height:30px ;}
 
+/* AliasCSS : These are classnames compiled  from dropdown.blade.php*/
+
+.c-000{color:#000 ;}
+.gap32px{gap:32px ;}
+.p10px14px{padding:10px 14px ;}
+
+/* AliasCSS : These are classnames compiled  from faq.blade.php*/
+
+._li-bt1px-s-gray200 li{border-top:1px solid #EAECF0 ;}
+._li-fc-bn li:first-child{border:none ;}
+._li-pt24px li{padding-top:24px ;}
+.mt8px{margin-top:8px ;}
+
+/* AliasCSS : These are classnames compiled  from color.blade.php*/
+
+.h100px{height:100px ;}
+
+/* AliasCSS : These are classnames compiled  from input.blade.php*/
+
+._li-h-bgc-gray300 li:hover{background-color:#D0D5DD ;}
+.b1px-s-primary300{border:1px solid #D6BBFB ;}
+.br8px0px0px8px{border-radius:8px 0px 0px 8px ;}
+.brt1px-s-gray300{border-right:1px solid #D0D5DD ;}
+.bxs0px0px0px5px-primary100{box-shadow:0px 0px 0px 5px #F4EBFF ;}
+.c-gray400{color:#98A2B3 ;}
+.c-warning300{color:#FEC48B ;}
+.m-8px-12px{margin:-8px -12px ;}
+.p4px{padding:4px ;}
+.stroke-success400{stroke:#32D583 ;}
+.xh320px{max-height:320px ;}
+.zi123{z-index:123 ;}
+
 /* AliasCSS : These are classnames compiled  from checkbox.blade.php*/
 
 .b4px-s-primary50{border:4px solid #F9F5FF ;}
@@ -392,7 +424,6 @@
 .c-success700{color:#027A48 ;}
 .fw7{font-weight: 700 ;}
 .g64px{gap:64px ;}
-.gap32px{gap:32px ;}
 .gap8px{gap:8px ;}
 .h100p{height:100% ;}
 .h10px{height:10px ;}
@@ -407,22 +438,6 @@
 .w10px{width:10px ;}
 .w14px{width:14px ;}
 .w20px{width:20px ;}
-
-/* AliasCSS : These are classnames compiled  from color.blade.php*/
-
-.h100px{height:100px ;}
-
-/* AliasCSS : These are classnames compiled  from dropdown.blade.php*/
-
-.c-000{color:#000 ;}
-.p10px14px{padding:10px 14px ;}
-
-/* AliasCSS : These are classnames compiled  from faq.blade.php*/
-
-._li-bt1px-s-gray200 li{border-top:1px solid #EAECF0 ;}
-._li-fc-bn li:first-child{border:none ;}
-._li-pt24px li{padding-top:24px ;}
-.mt8px{margin-top:8px ;}
 
 /* AliasCSS : These are classnames compiled  from modal.blade.php*/
 
@@ -453,21 +468,6 @@
 .w554px{width:554px ;}
 .zi1234567{z-index:1234567 ;}
 
-/* AliasCSS : These are classnames compiled  from input.blade.php*/
-
-._li-h-bgc-gray300 li:hover{background-color:#D0D5DD ;}
-.b1px-s-primary300{border:1px solid #D6BBFB ;}
-.br8px0px0px8px{border-radius:8px 0px 0px 8px ;}
-.brt1px-s-gray300{border-right:1px solid #D0D5DD ;}
-.bxs0px0px0px5px-primary100{box-shadow:0px 0px 0px 5px #F4EBFF ;}
-.c-gray400{color:#98A2B3 ;}
-.c-warning300{color:#FEC48B ;}
-.m-8px-12px{margin:-8px -12px ;}
-.p4px{padding:4px ;}
-.stroke-success400{stroke:#32D583 ;}
-.xh320px{max-height:320px ;}
-.zi123{z-index:123 ;}
-
 /* AliasCSS : These are classnames compiled  from tab.blade.php*/
 
 .-h-bgc-primary50:hover{background-color:#F9F5FF ;}
@@ -477,6 +477,17 @@
 .brt1px-s-gray200{border-right:1px solid #EAECF0 ;}
 .c-blue600{color:#1570EF ;}
 
+/* AliasCSS : These are classnames compiled  from typography.blade.php*/
+
+.brt1px-s-gray400{border-right:1px solid #98A2B3 ;}
+.heading-2xl{font-size:72px ; line-height:90px ; line-spacing:-0.02em ;}
+.heading-md{font-size: 36px; line-height: 44px; line-spacing:-0.02em ;}
+.heading-sm{font-size: 30px; line-height: 38px ;}
+.heading-xl{font-size: 60px; line-height: 72px; line-spacing:-0.02em ;}
+.heading-xs{font-size: 24px; line-height: 32px ;}
+.ml8px{margin-left:8px ;}
+.p2px8px{padding:2px 8px ;}
+
 /* AliasCSS : These are classnames compiled  from tooltip.blade.php*/
 
 .-h____div-db:hover ~ div{display: block ;}
@@ -484,6 +495,7 @@
 .br0px0px2px0px{border-radius:0px 0px 2px 0px ;}
 .btm-6px{bottom:-6px ;}
 .btm100p{bottom:100% ;}
+.c-blue{color:blue ;}
 .c-gray50{color:#F9FAFB ;}
 .l-6px{left:-6px ;}
 .l100p{left:100% ;}
@@ -499,14 +511,3 @@
 .wxc-i{width:max-content !important ;}
 .xw332px{max-width:332px ;}
 .zi1234{z-index:1234 ;}
-
-/* AliasCSS : These are classnames compiled  from typography.blade.php*/
-
-.brt1px-s-gray400{border-right:1px solid #98A2B3 ;}
-.heading-2xl{font-size:72px ; line-height:90px ; line-spacing:-0.02em ;}
-.heading-md{font-size: 36px; line-height: 44px; line-spacing:-0.02em ;}
-.heading-sm{font-size: 30px; line-height: 38px ;}
-.heading-xl{font-size: 60px; line-height: 72px; line-spacing:-0.02em ;}
-.heading-xs{font-size: 24px; line-height: 32px ;}
-.ml8px{margin-left:8px ;}
-.p2px8px{padding:2px 8px ;}
