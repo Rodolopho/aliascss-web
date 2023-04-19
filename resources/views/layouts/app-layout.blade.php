@@ -13,7 +13,7 @@
     <title>AliasCSS: CSS Post Processor </title>
 
     <style> [x-cloak] { display: none !important; } </style>
-    <script src="https://kit.fontawesome.com/1231d5188c.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/7db30bc633.js" crossorigin="anonymous"></script>
     {{-- Alpine --}}
     <script defer src="{{asset('js/alpine-collapse-3.1x.x.js')}}"></script>
     <script defer src="{{asset('js/alpine3.10.2.js')}}"></script>

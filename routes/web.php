@@ -30,3 +30,7 @@ Route::get('/color', function () {
 Route::get('/components', function () {
     return view('components');
 })->name('components');
+
+Route::get('/examples/opera', function () {
+    return view('examples/opera');
+})->name('opera');

@@ -8,10 +8,11 @@
     <script src="{{asset('/codemirror5-master/addon/edit/closetag.js')}}"></script>
     <script src="{{asset('/codemirror5-master/addon/edit/matchtags.js')}}"></script>
     <script src="{{asset('/codemirror5-master/addon/edit/closebrackets.js')}}"></script>
+    <script src="{{asset('/js/browser.js')}}"></script>
     @endpush
     @push('style-head')
     <link rel="stylesheet" href="{{asset('codemirror5-master/lib/codemirror.css')}}">
-    <link rel="stylesheet" href="{{asset('codemirror5-master/theme/neo.css')}}">
+    <link rel="stylesheet" href="{{asset('codemirror5-master/theme/zenburn.css')}}">
     @endpush
 <div class="wrapper">
 @include('partials.header')
@@ -86,9 +87,7 @@
     </div>
     <div class="df fdc md-fdr">
         <div class="pr md-w6col bgc-gray100 bl12px-s-blue100 " @keyup="code=editor.getValue()">
-            <textarea id="code-editor" class="">
-
-                    </textarea>
+            <textarea id="code-editor"></textarea>
         </div>
 
         <!------End code Area------------>
@@ -114,16 +113,17 @@
         var editor=CodeMirror.fromTextArea(document.getElementById('code-editor'),{
                 mode:'htmlmixed',
                 htmlMode:true,
-                theme:'neo',
+                theme:'zenburn',
                 lineNumbers:true,
                 autoCloseTags:true,
                 autoCloseBrackets:true,
+                tabSize: 4,
                 lineWrapping:true,
-                tags: {
-                // style: [["type", /^text\/(x-)?scss$/, "text/x-scss"],
-                // [null, null, "css"]],
-                // custom: [[null, null, "customMode"]]
-                }
+                extraKeys: {
+                'Tab': 'emmetExpandAbbreviation',
+                'Esc': 'emmetResetAbbreviation',
+                'Enter': 'emmetInsertLineBreak'
+                },
             })
 
             editor.setSize('0.5'*window.innerWith, '100vh');
