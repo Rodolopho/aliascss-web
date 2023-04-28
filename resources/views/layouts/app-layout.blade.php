@@ -10,11 +10,13 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
     <title>AliasCSS: CSS Post Processor </title>
 
     <style> [x-cloak] { display: none !important; } </style>
    <script src="https://kit.fontawesome.com/7db30bc633.js" crossorigin="anonymous"></script>
     {{-- Alpine --}}
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script defer src="{{asset('js/alpine-collapse-3.1x.x.js')}}"></script>
     <script defer src="{{asset('js/alpine3.10.2.js')}}"></script>
 
@@ -26,10 +28,7 @@
     <link rel="stylesheet" href="{{asset('css/normalize.css')}}">
     {{-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> --}}
     <style >
-        /* :root{
-            --lorem:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, est veritatis quis sapiente quo quidem harum fuga
-            assumenda odio tempore, vel corrupti consequuntur quas doloribus ab deserunt, voluptates aliquam temporibus.'
-        } */
+
         :root {
             --lorem: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, est veritatis quis sapiente quo quidem harum fuga assumenda odio tempore, vel corrupti consequuntur quas doloribus ab deserunt, voluptates aliquam temporibus.";
         }

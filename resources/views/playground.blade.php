@@ -13,6 +13,7 @@
     @push('style-head')
     <link rel="stylesheet" href="{{asset('codemirror5-master/lib/codemirror.css')}}">
     <link rel="stylesheet" href="{{asset('codemirror5-master/theme/zenburn.css')}}">
+    <style id="playground" ></style>
     @endpush
 <div class="wrapper">
 @include('partials.header')
@@ -43,7 +44,7 @@
 
         }" x-init="$watch('code',(value)=>{
             if(live){
-                AliasCSS.classPrinter.run(document.getElementById('outer-area'))
+                document.getElementById('playground').innerText=AliasCSS.classPrinter.returnStatement(document.getElementById('output-area'));
             }
 
             })">
@@ -58,7 +59,9 @@
             live
         </div>
         <span class="df aic cp "
-            @click="$refs.output.innerHTML=code;AliasCSS.classPrinter.run(document.getElementById('outer-area'))">
+            @click="$refs.output.innerHTML=code;
+            document.getElementById('playground').innerText=AliasCSS.classPrinter.returnStatement(document.getElementById('output-area'));
+            ">
             <svg
                 class="w16px h16px stroke-currentColor stroke-width2px stroke-linecap-round stroke-linejoin-round fill-none">
                 <use href="{{asset('icons/feather-sprite.svg')}}#terminal"></use>
@@ -92,7 +95,7 @@
 
         <!------End code Area------------>
         <!------Output Area------------>
-        <div x-ref="output" class="md-w6col  bl1px-s-gray300 " id="output-area" x-html="getCode">
+        <div x-ref="output" class="md-w6col pl20px bl1px-s-gray300 " id="output-area" x-html="getCode">
 
         </div>
     </div>
