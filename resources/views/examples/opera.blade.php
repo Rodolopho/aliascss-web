@@ -25,7 +25,47 @@
         <!------Hero------------>
         <div class="lg-p20px93px p20px hero">
             <div class="br16px  oh b1px-s-gray300 ">
-                <div class="w100p h400px bg-lg-primary100-success100"></div>
+                <div class="w100p h400px bg-lg-primary100-success100 df fdrr jcsb p20px ">
+                    <!------Componetn------------>
+                    <div class="pr">
+                        <button class=" zi1 pr br25px-i text-sm fw6 b2px-s-gray800 bxs0px0px1px12px-111111111d1 bgc-fff p8px10px">
+                            AI PROMPTS
+                        </button>
+                        <div class="bgc-fff p16px pa r10px df shadow-xl br5px fdc g16px t60px zi0 _a-mra wxc">
+                            <i class="w20px h20px bgc-fff pa t-10px  zi-1 l50p tf-r45deg"></i>
+                            <h4 class="m0px">
+                                AI Prompts
+                            </h4>
+                            <a hred="#" class="df aic g8px c-gray700 bgc-success100 bn p8px12px br16px  fw5">
+                                <span class="bgc-success500 c-gray50 p4px br8px text-xs">CS</span>
+                                Shorten
+                            </a>
+                            <a hred="#" class="df aic g8px c-gray700 bgc-violet100 bn p8px12px br16px  fw5">
+                                <span class="bgc-violet500 c-gray50 p4px br8px text-xs">CS</span>
+                                Whats New Update?
+                            </a>
+                            <a hred="#" class="df aic g8px c-gray700 bgc-success100 bn p8px12px br16px  fw5">
+                                <span class="bgc-success500 c-gray50 p4px br8px text-xs">CS</span>
+                                Create a tweet
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p20px">
+                        <button class="df aic g8px c-gray700 bgc-success100 bn p8px12px br16px shadow-lg fw5">
+                            <span class="bgc-success500 c-gray50 p4px br8px text-xs">CS</span>
+                            Recommended sites and food
+                        </button>
+                        <button class=" m20px df aic g8px c-gray700 bgc-violet200 bn p8px12px br16px shadow-lg fw5">
+                            <span class="bgc-violet500 c-gray50 p4px br8px text-xs">CS</span>
+                            Recommended sites and food
+                        </button>
+                        <button class=" m20px df aic g8px c-gray700 bgc-error200 bn p8px12px br16px shadow-lg fw5">
+                            <span class="bgc-error500 c-gray50 p4px br8px text-xs">CS</span>
+                            Recommended sites and food
+                        </button>
+                    </div>
+                    <!--Endcomponents-->
+                </div>
                 <div class="df aic jcsb p20px g16px">
                     <div class="">
                         <div class="df aic g8px">

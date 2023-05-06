@@ -6,7 +6,7 @@
         <div class="df jcsb g8px">
             <div class="df aic w100p g8px p8px12px bgc-fff br8px b1px-s-gray300 shadow-xs">
                 <div class="df jcsb aic w100p g8px  ">
-                    <input class="oln bn w100p text-sm fw4 c-gray500 " id="acss-input"
+                    <input class="oln bn w100p text-sm fw4 c-gray500 " id="acss-input" autocomplete="off" spellcheck="false"
                         placeholder="Type ACSS classname/s and get its compiled CSS defination e.g br5px" />
                     <span class="df">
                         {{-- <svg
